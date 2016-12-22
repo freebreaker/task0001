@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	 <script type="text/javascript" src='jquery/jquery-3.1.1.js'></script>
+	 <script type="text/javascript" src='bootstrap/js/bootstrap.min.js'></script>
+	<title>投票页面</title>
+	<style>
+
+
+
+		body{
+			margin: 0 auto;
+			max-width: 640px;
+			min-width: 320px;
+			width: 100%;
+			margin-top: 12.5vw;
+			margin-bottom: 30vw;
+			background-color: #f0f0f0;
+			font: normal 100% Helvetica, Arial, sans-serif;
+		}
+		img { max-width: 100%;}
+
+		
+		/*头部部分*/
+		header > nav {
+			margin: 0 auto;
+			max-width: 640px;
+			min-width: 320px;
+			width: 100%;
+			height: 12.5vw;
+			background-color: #29bde0;
+			color: white;
+
+		
+
+		}
+
+		header > nav > a{
+			display: inline-block;
+			float: left;
+			margin-left: 4vw;
+			width: 7.03vw;
+			height: 5.625vw;
+			line-height: 12.5vw;
+
+		}
+
+		header > nav > p{
+			display: inline-block;
+			line-height: 12.5vw;
+			text-align: center;
+			font-size: 2em;
+			margin-left: 34.3vw;
+
+		}
+
+		.pic{
+			float: right;
+		}
+
+
+		/*请大家投票部分*/
+		.vote-part{
+			height: 14vw;
+			background-color: #b9e9f5;
+
+		}
+
+		.vote-part h3{
+			display: inline-block;
+			padding-left: 6.25vw;
+			font-size: 1.5em;
+		}
+		
+		.vote-part a{
+			display: inline-block;
+			float: right;
+
+			
+
+		}
+
+		/*下面是main部分，主体部分*/
+
+		.main{
+			width: 100%;
+			background-color:#29bde0;
+			float: left;
+		}
+
+		.main h4{
+			color: white;
+			padding-left: 6.4vw;
+			padding-top: 3.43vw;
+		}
+
+		.main-body{
+			margin-left: 6.25vw;
+		}
+
+		.farmers{
+			display: inline-block;
+			width: 19.68vw;
+			height: 19.68vw;
+			border: 0.78vw solid white;
+			margin-right: 10vw;
+			margin-top: 3.13vw;
+		}
+
+		.farmers .farmers-name{
+			width: 100%;
+			height: 15.3vw;
+			background-color: #f5c97b;
+			font-size: 2.8em;
+			text-align: center;
+			line-height: 15.3vw;
+		}
+
+		.farmers-num{
+			width: 100%;
+			height: 4.38vw;
+			background-color: #83b09a;
+			text-align: center;
+			line-height: 4.38vw;
+			color: white;
+		}
+
+
+
+		/*footer部分固定在底部*/
+		footer{
+			position: relative;
+			position:fixed; bottom:0; 
+			width: 100%;
+			height: 30vw;
+			color: white;
+			font-size: 2.5em;
+			background-color: #29bde0;
+			float: left;
+		}
+
+		footer > button{
+			position: absolute;
+			top: 30%;
+			left: 12%;
+			width: 76.25vw;
+			height: 14vw;
+			background-color: #fbb435;
+			outline: none;
+			border:none;
+		}
+
+
+	</style>
+</head>
+<body>
+		<header>
+		<nav class="navbar-fixed-top">
+			<a href="http://caibaojian.com/bootstrap/19.html"><img src="修真院/roundlogo.png" alt=""></a>
+			<p>投票</p>
+			<a href="" class="pic"><img src="wrong.png" alt="" style="margin-right: 2vw;float:right;margin-top:4vw;"></a>
+		</nav>
+		</header>
+
+
+		<section>
+			<div class="vote-part">
+				<h3>发言讨论结束，大家请投票</h3>
+				<a href=""><img src="radio.png"></a>
+			</div>
+
+			<div class="main">
+				<h4>点击投票数最多人的头像</h4>
+				<div class="main-body">
+					<div class='farmers'>
+						<div class="farmers-name">水民</div>
+						<div class="farmers-num">一号</div>
+						<div class="farmers-pic">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+						</div>
+					</div>
+
+					<div class='farmers'>
+						<div class="farmers-name">水民</div>
+						<div class="farmers-num">一号</div>
+						<div class="farmers-pic">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+						</div>
+					</div>
+					<div class='farmers'>
+						<div class="farmers-name">水民</div>
+						<div class="farmers-num">一号</div>
+						<div class="farmers-pic">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+						</div>
+					</div>
+
+					<div class='farmers'>
+						<div class="farmers-name">水民</div>
+						<div class="farmers-num">一号</div>
+						<div class="farmers-pic">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+						</div>
+					</div>
+
+					<div class='farmers'>
+						<div class="farmers-name">水民</div>
+						<div class="farmers-num">一号</div>
+						<div class="farmers-pic">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+						</div>
+					</div>
+
+					<div class='farmers'>
+						<div class="farmers-name">水民</div>
+						<div class="farmers-num">一号</div>
+						<div class="farmers-pic">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+						</div>
+					</div>
+
+					<div class='farmers'>
+						<div class="farmers-name">水民</div>
+						<div class="farmers-num">一号</div>
+						<div class="farmers-pic">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+						</div>
+					</div>
+
+					<div class='farmers'>
+						<div class="farmers-name">水民</div>
+						<div class="farmers-num">一号</div>
+						<div class="farmers-pic">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+						</div>
+					</div>
+
+					<div class='farmers'>
+						<div class="farmers-name">水民</div>
+						<div class="farmers-num">一号</div>
+						<div class="farmers-pic">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+						</div>
+					</div>
+
+					<div class='farmers'>
+						<div class="farmers-name">水民</div>
+						<div class="farmers-num">一号</div>
+						<div class="farmers-pic">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+						</div>
+					</div>
+
+										<div class='farmers'>
+						<div class="farmers-name">水民</div>
+						<div class="farmers-num">一号</div>
+						<div class="farmers-pic">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+						</div>
+					</div>
+
+										<div class='farmers'>
+						<div class="farmers-name">水民</div>
+						<div class="farmers-num">一号</div>
+						<div class="farmers-pic">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+							<img src="修真院/登陆_0001s_0004_形状-1.png" alt="">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	
+
+		<footer>
+			
+				<button>投死</button>
+			
+		</footer>
+</body>
+</html>
