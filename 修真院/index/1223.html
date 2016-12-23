@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	 <script type="text/javascript" src='jquery/jquery-3.1.1.js'></script>
+	 <script type="text/javascript" src='bootstrap/js/bootstrap.min.js'></script>
+	<title>结果</title>
+
+	<style>
+		body{
+			margin: 0 auto;
+			max-width: 640px;
+			min-width: 320px;
+			width: 100%;
+			margin-top: 12.5vw;
+			margin-bottom: 30vw;
+			background-color: #f0f0f0;
+			font: normal 100% Helvetica, Arial, sans-serif;
+		}
+		img { max-width: 100%;
+
+		}
+		ul{
+			list-style: none;
+		}
+
+		/*header 部分*/
+		header > nav {
+			margin: 0 auto;
+			max-width: 640px;
+			min-width: 320px;
+			width: 100%;
+			height: 12.5vw;
+			background-color: #29bde0;
+			color: white;
+
+		
+
+		}
+		header > nav > a{
+			display: inline-block;
+			float: left;
+			margin-left: 4vw;
+			width: 7.03vw;
+			height: 5.625vw;
+			line-height: 12.5vw;
+
+		}
+
+		header > nav > p{
+			display: inline-block;
+			line-height: 12.5vw;
+			text-align: center;
+			font-size: 2em;
+			margin-left: 30vw;
+
+		}
+
+		.pic{
+			float: right;
+		}
+
+		/*main部分*/
+		section{
+			width: 100%;
+			background-color: #29bde0;
+		}
+
+		.container{
+			max-width: 86.56vw;
+
+		}
+
+
+		.container img{
+			margin-top: 3.6vw;
+		}
+
+		.container h2{
+			color: #ffc865;
+			font-size: 2.2em;
+			
+		}
+
+
+		.results li{
+			display: block;
+			color: white;
+			font-size: 1.5em;
+			margin-left: -40px;
+		
+		}
+
+		.results li >span{
+			padding-right: 5.5vw;
+		}
+
+		/*day部分*/
+		.day{
+			border-bottom: 1px solid #bcbcbc;
+		}
+
+		.day .firstline{
+			color:#bcbcbc;
+			font-size: 1.8em;
+			margin-bottom: 4vw;
+
+		}
+
+		.right{
+			float: right;
+		}
+		.day ul >li{
+			display: block;
+			color:#bcbcbc;
+			font-size: 1.8em;
+			margin-left: -40px;
+
+
+		}
+
+		footer{
+			position: relative;
+			position:fixed; bottom:0; 
+			width: 100%;
+			height: 20.3vw;
+			color: white;
+			font-size: 2.5em;
+			background-color: RGBA(153,223,240,0.7);
+			float: left;
+		}
+
+		footer > button{
+			
+			margin-top: 3.82vw;
+			margin-left: 4.12vw;
+			width: 42.18vw;
+			height: 12.5vw;
+			background-color: #fbb435;
+			outline: none;
+			border:none;
+			border-radius: 2vw;
+		}
+
+	</style>
+	
+</head>
+<body>
+	<header>
+		<nav class="navbar-fixed-top">
+			<a href="http://caibaojian.com/bootstrap/19.html"><img src="home1.png" alt=""></a>
+			<p>游戏结果</p>
+			<a href="" class="pic"><img src="wrong.png" alt="" style="margin-right: 2vw;float:right;margin-top:4vw;"></a>
+		</nav>
+	</header>
+
+
+	<section>
+		<div class="container">
+		<img src="victory.png" alt="" style="max-width:80%;margin-left:9vw;">
+		<h2>太棒了！你知道么？在捉鬼游戏中只有20%的卧底取得最终的胜利哦！</h2>
+	
+        <ul class="results">
+            <li><span>本次游戏共计用时0小时25分钟</span></li>
+            <li>
+                <span>杀  手0人</span>
+                <span class="center" style="padding-left:3.2vw;">警  察1人</span>
+                <span class="center">平  民6人</span>
+            </li>
+            <li>
+                <span>阻击手0人</span>
+                <span class="center">医  生1人</span>
+            </li>
+            <li>
+                <span>卧底词汇：爱新觉罗</span>
+            </li>
+            <li>
+                <span>水民词汇：努尔哈赤</span>
+            </li>
+		</ul>
+
+
+		</div>
+	</section>
+
+
+
+	<div class="day container">
+		<div class="firstline">
+                <span class="left">第3天</span>
+                <span class="right">0小时07分</span>
+        </div>
+		<ul>
+			<li>晚上：5号被杀手杀死，5号是水民</li>
+			<li>白天：8号被全民投票投死，8号是杀手</li>
+		</ul>
+	</div>
+
+		<div class="day container">
+		<div class="firstline">
+                <span class="left">第3天</span>
+                <span class="right">0小时07分</span>
+        </div>
+		<ul>
+			<li>晚上：5号被杀手杀死，5号是水民</li>
+			<li>白天：8号被全民投票投死，8号是杀手</li>
+		</ul>
+	</div>
+
+		<div class="day container">
+		<div class="firstline">
+                <span class="left">第3天</span>
+                <span class="right">0小时07分</span>
+        </div>
+		<ul>
+			<li>晚上：5号被杀手杀死，5号是水民</li>
+			<li>白天：8号被全民投票投死，8号是杀手</li>
+		</ul>
+	</div>
+
+		<div class="day container">
+		<div class="firstline">
+                <span class="left">第3天</span>
+                <span class="right">0小时07分</span>
+        </div>
+		<ul>
+			<li>晚上：5号被杀手杀死，5号是水民</li>
+			<li>白天：8号被全民投票投死，8号是杀手</li>
+		</ul>
+	</div>
+
+
+
+	<footer>
+		<button style="background-color:#f66f6f;">再来一局</button>
+		<button>上传并分享</button>
+
+
+	</footer>
+	
+</body>
+</html>
