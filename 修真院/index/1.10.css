@@ -1,0 +1,261 @@
+
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*下面是头部部分的样式*/
+.phone{
+	display: block;
+	color: #29b078;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.phone img{
+	float: right;
+}
+
+
+.header_logo{
+	background-color: #29b078;
+
+}
+
+.header_logo .container img{
+	max-width: 100%;
+	height: 100%;
+	margin: 15px 0;
+}
+
+
+.info{
+	float: right;
+	line-height: 77px;
+
+
+}
+
+.info a{
+
+	text-decoration: none;
+	color: white;
+    padding: 0rem 1.6rem 2.4rem 1.6rem;
+    width: 6rem;
+    color: white;
+    font-size: 1.5rem;
+
+  }
+
+.info a:hover {
+	    border-bottom: 2px solid white;
+}
+
+
+
+
+/*main部分的样式*/
+
+.container_first{
+	width: 25%;
+	float: left;
+	text-align: center;
+	
+	box-sizing: border-box;
+	padding: 50px;
+	margin-top: 50px;
+}
+
+
+.container h2{
+	font-weight: bold;
+}
+
+p{
+	color: #999999;
+}
+
+
+/*如何学习的部分*/
+.container2{
+	padding-top: 400px;
+}
+.container2 h2{
+	text-align: center;
+	font-weight: bold;
+}
+
+.how_to_learn{
+	width: 25%;
+	float: left;
+	margin-top: 5rem;
+	box-sizing: border-box;
+	
+x;
+}
+
+.how_to_learn button{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: white;
+	border: 1px solid #ebeaeb;
+	box-shadow: 0 0 5px #ebeaeb;
+	color: #29b078;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+
+.how_to_learn p{
+
+	display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 10px;
+    width: 12rem;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 1.3rem;
+    color: #999999;
+}
+
+.how_to_learn img{
+	margin-left: 10px;
+}
+
+/*优秀学员展示部分的css*/
+
+.container3 h2{
+	text-align: center;
+	margin-top: 30rem;
+	padding-bottom: 4rem;
+}
+
+.trainee{
+	width: 25%;
+	float: left;
+	border: 1px solid #ebeaeb;
+	box-shadow: 0 0 5px #ebeaeb;
+	padding: 4rem;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.name {
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+
+.person{
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+	background-image: url(../images/task8-1-student2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+/*战略合作伙伴*/
+
+
+.container4 h2{
+	text-align: center;
+	margin-top: 38rem;
+	padding-bottom: 4rem;
+}
+
+/*友情链接的部分*/
+
+.link_phone h2{
+	text-align: center;
+	margin-top: 10rem;
+	padding-bottom: 4rem;
+}
+
+.link_phone li{
+    float: left;
+    margin: auto 1.5rem;
+    margin-top: 1%;
+    width: 6rem;
+    
+}
+
+.link_phone li > a{
+	color: #a3a3a3;
+}
+
+
+/*底部样式*/
+
+.link_website{
+	width: 100%;
+	height: 15rem;
+	margin: 0 auto;
+	margin-top: 10rem;
+	background-color:#29b078;
+
+}
+
+.link_website1{
+	color: white;
+	width: 33%;
+	float: left;
+	margin-top: 2rem;
+	padding-left: 7rem;
+	box-sizing: border-box;
+}
+
+.link_website1 p{
+	margin-top: 5rem;
+
+} 
+
+.link_website1 a{
+	color: white;
+	padding-right: 2rem;
+	padding-top: 10px;
+}
+
+
+.link_website3{
+	color: white;
+	width: 33%;
+	float: right;
+	margin-top: 2rem;
+	padding-left: 10rem;
+	box-sizing: border-box;
+}
+
+
+
+.wechat {
+	display: block;
+	padding-bottom: 2rem;
+}
+
+
+.footer_footer{
+	text-align: center;
+	background-color:#29b078;
+
+	border-top: 1px solid #32c086;
+}
+
+.footer_footer p{
+	color: white;
+}
